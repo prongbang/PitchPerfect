@@ -8,11 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9F9EA15B225B239B00D10950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA15A225B239B00D10950 /* AppDelegate.swift */; };
-		9F9EA15D225B239B00D10950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA15C225B239B00D10950 /* ViewController.swift */; };
 		9F9EA160225B239B00D10950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9EA15E225B239B00D10950 /* Main.storyboard */; };
 		9F9EA162225B239D00D10950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9EA161225B239D00D10950 /* Assets.xcassets */; };
 		9F9EA165225B239D00D10950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9EA163225B239D00D10950 /* LaunchScreen.storyboard */; };
 		9F9EA170225B239D00D10950 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA16F225B239D00D10950 /* PitchPerfectTests.swift */; };
+		9F9EA184225B33C700D10950 /* RecordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA17E225B33C700D10950 /* RecordPresenter.swift */; };
+		9F9EA185225B33C700D10950 /* RecordWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA17F225B33C700D10950 /* RecordWorker.swift */; };
+		9F9EA186225B33C700D10950 /* RecordRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA180225B33C700D10950 /* RecordRouter.swift */; };
+		9F9EA187225B33C700D10950 /* RecordModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA181225B33C700D10950 /* RecordModels.swift */; };
+		9F9EA188225B33C700D10950 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA182225B33C700D10950 /* RecordViewController.swift */; };
+		9F9EA189225B33C700D10950 /* RecordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA183225B33C700D10950 /* RecordInteractor.swift */; };
+		9F9EA191225B396A00D10950 /* PlayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA18B225B396A00D10950 /* PlayPresenter.swift */; };
+		9F9EA192225B396A00D10950 /* PlayWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA18C225B396A00D10950 /* PlayWorker.swift */; };
+		9F9EA193225B396A00D10950 /* PlayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA18D225B396A00D10950 /* PlayRouter.swift */; };
+		9F9EA194225B396A00D10950 /* PlayModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA18E225B396A00D10950 /* PlayModels.swift */; };
+		9F9EA195225B396A00D10950 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA18F225B396A00D10950 /* PlayViewController.swift */; };
+		9F9EA196225B396A00D10950 /* PlayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9EA190225B396A00D10950 /* PlayInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +39,6 @@
 /* Begin PBXFileReference section */
 		9F9EA157225B239B00D10950 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9EA15A225B239B00D10950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F9EA15C225B239B00D10950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F9EA15F225B239B00D10950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F9EA161225B239D00D10950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9EA164225B239D00D10950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,18 @@
 		9F9EA16B225B239D00D10950 /* PitchPerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9EA16F225B239D00D10950 /* PitchPerfectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectTests.swift; sourceTree = "<group>"; };
 		9F9EA171225B239D00D10950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9EA17E225B33C700D10950 /* RecordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPresenter.swift; sourceTree = "<group>"; };
+		9F9EA17F225B33C700D10950 /* RecordWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordWorker.swift; sourceTree = "<group>"; };
+		9F9EA180225B33C700D10950 /* RecordRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRouter.swift; sourceTree = "<group>"; };
+		9F9EA181225B33C700D10950 /* RecordModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModels.swift; sourceTree = "<group>"; };
+		9F9EA182225B33C700D10950 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		9F9EA183225B33C700D10950 /* RecordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordInteractor.swift; sourceTree = "<group>"; };
+		9F9EA18B225B396A00D10950 /* PlayPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPresenter.swift; sourceTree = "<group>"; };
+		9F9EA18C225B396A00D10950 /* PlayWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWorker.swift; sourceTree = "<group>"; };
+		9F9EA18D225B396A00D10950 /* PlayRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayRouter.swift; sourceTree = "<group>"; };
+		9F9EA18E225B396A00D10950 /* PlayModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayModels.swift; sourceTree = "<group>"; };
+		9F9EA18F225B396A00D10950 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		9F9EA190225B396A00D10950 /* PlayInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +99,8 @@
 		9F9EA159225B239B00D10950 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				9F9EA17C225B33A300D10950 /* Feature */,
 				9F9EA15A225B239B00D10950 /* AppDelegate.swift */,
-				9F9EA15C225B239B00D10950 /* ViewController.swift */,
 				9F9EA15E225B239B00D10950 /* Main.storyboard */,
 				9F9EA161225B239D00D10950 /* Assets.xcassets */,
 				9F9EA163225B239D00D10950 /* LaunchScreen.storyboard */,
@@ -94,6 +116,41 @@
 				9F9EA171225B239D00D10950 /* Info.plist */,
 			);
 			path = PitchPerfectTests;
+			sourceTree = "<group>";
+		};
+		9F9EA17C225B33A300D10950 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				9F9EA18A225B392F00D10950 /* Play */,
+				9F9EA17D225B33B000D10950 /* Record */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		9F9EA17D225B33B000D10950 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				9F9EA17E225B33C700D10950 /* RecordPresenter.swift */,
+				9F9EA17F225B33C700D10950 /* RecordWorker.swift */,
+				9F9EA180225B33C700D10950 /* RecordRouter.swift */,
+				9F9EA181225B33C700D10950 /* RecordModels.swift */,
+				9F9EA182225B33C700D10950 /* RecordViewController.swift */,
+				9F9EA183225B33C700D10950 /* RecordInteractor.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		9F9EA18A225B392F00D10950 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				9F9EA18B225B396A00D10950 /* PlayPresenter.swift */,
+				9F9EA18C225B396A00D10950 /* PlayWorker.swift */,
+				9F9EA18D225B396A00D10950 /* PlayRouter.swift */,
+				9F9EA18E225B396A00D10950 /* PlayModels.swift */,
+				9F9EA18F225B396A00D10950 /* PlayViewController.swift */,
+				9F9EA190225B396A00D10950 /* PlayInteractor.swift */,
+			);
+			path = Play;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +254,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9EA15D225B239B00D10950 /* ViewController.swift in Sources */,
+				9F9EA196225B396A00D10950 /* PlayInteractor.swift in Sources */,
+				9F9EA184225B33C700D10950 /* RecordPresenter.swift in Sources */,
+				9F9EA186225B33C700D10950 /* RecordRouter.swift in Sources */,
+				9F9EA193225B396A00D10950 /* PlayRouter.swift in Sources */,
+				9F9EA192225B396A00D10950 /* PlayWorker.swift in Sources */,
+				9F9EA195225B396A00D10950 /* PlayViewController.swift in Sources */,
+				9F9EA187225B33C700D10950 /* RecordModels.swift in Sources */,
+				9F9EA189225B33C700D10950 /* RecordInteractor.swift in Sources */,
+				9F9EA191225B396A00D10950 /* PlayPresenter.swift in Sources */,
+				9F9EA194225B396A00D10950 /* PlayModels.swift in Sources */,
+				9F9EA188225B33C700D10950 /* RecordViewController.swift in Sources */,
+				9F9EA185225B33C700D10950 /* RecordWorker.swift in Sources */,
 				9F9EA15B225B239B00D10950 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ATXW43MG6;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ATXW43MG6;
 				INFOPLIST_FILE = PitchPerfect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
